@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOG IN / CREATE ACCOUNT - ZARA India - Official Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@200;300&family=Mulish:wght@200;400&family=PT+Sans&family=Pacifico&family=Shizuru&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="footer.css" />
+
+  <script src="loginValidation.js">
+
+  </script>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="hamburger">
+    <span class="fas fa-bars"></span>
+  </div>
+  <div class="logo">
+    <a href="https://www.zara.com/fr/"><img height="140" width="280" src="https://www.logo.wine/a/logo/Zara_(retailer)/Zara_(retailer)-Logo.wine.svg" alt=""></a>
+
+
+
+    <span class="rightoptions">
+      <a href="search.html">
+        <p id="search-input">SEARCH</p>
+      </a>
+      <a href="login.html">
+        <p id="userCheck">LOG IN</p>
+      </a>
+      <a href="mainhelp.html">
+        <p>HELP</p>
+      </a>
+      <a href="shoppingBasket.html">
+        <p>CART</p>
+      </a>
+    </span>
+  </div>
+
+
+  <nav class="sidebar">
+    <ul>
+      <li>
+        <a href="#" class="womensec">women</a>
+        <ul class="womensec1">
+          <li><a href="#">STARTING FROM 40%</a></li>
+          <li id="womenJacks">JACKETS | PUFFERS</li>
+          <li>
+            <a href="#">BLAZERS | COATS</a>
+            <ul>
+              <li><a href="#">DRESSES | JUMPSUITS</a></li>
+              <li><a href="#">SHIRTS</a></li>
+              <li><a href="#">TROUSERS</a></li>
+              <li><a href="#">JEANS</a></li>
+              <li><a href="#">T-SHIRTS</a></li>
+              <li><a href="#">TOPS | BODYSUITS</a></li>
+              <li><a href="#">SKIRTS | SHORTS</a></li>
+              <li><a href="#">KNITWEAR</a></li>
+              <li><a href="#">SHOES</a></li>
+              <li><a href="#">BAGS</a></li>
+              <li id="womenAcc">ACCESSORIES</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+
+      <li>
+        <a href="#" class="mensec">men</a>
+        <ul class="mensec1">
+          <li><a href="#">STARTING FROM -60%</a></li>
+          <li><a href="#">STARTING FROM -40%</a></li>
+          <li>
+            <a href="#">JACKETS | COATS</a>
+            <ul>
+              <li><a href="#">OVERSHIRTS</a></li>
+              <li id="menShirts">SHIRTS</li>
+              <li><a href="#">T-SHIRTS | SWEATSHIRTS</a></li>
+              <li><a href="#">TROUSERS | JEANS</a></li>
+              <li id="menShoes">SHOES</li>
+              <li><a href="#">BAGS | BACKPACKS</a></li>
+              <li><a href="#">ACCESSORIES</a></li>
+              <li id="athleticz">ZARA ATHLETICS</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+
+
+
+      <li><a href="#">Kids</a></li>
+      <li><a href="#">SHOES &amp; BAGS</a></li>
+      <li><a href="#">JOIN LIFE</a></li>
+      <br>
+      <li><a href="#">+ info</a></li>
+    </ul>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div id="header"></div>
+  <div id="logindiv">
+    <div id="log">
+      <section>
+        <h3>LOG IN</h3>
+        <form id="form" onsubmit="login(event)">
+          <div id="ep">
+            <input type="email" id="inputEmail" onclick="clickForPass()" placeholder="email" required />
+            <br />
+            <input type="password" id="inputPasswd" placeholder="password" required />
+          </div>
+          <p class="size6">AVEZ-VOUS OUBLIÉ VOTRE MOT DE PASSE?</p>
+
+          <!-- <button type="submit">LOG IN</button> -->
+          <p class="linkzara"><a href="payment.html">CONTINUER EN TANT QU'INVITÉ</a></p>
+          <div id="logbttn">
+            <button type="submit">SE CONNECTER</button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <div id="reg">
+      <section>
+        <h3>CRÉER UN COMPTE</h3>
+        <div class="size">
+          <p>
+            SI VOUS N'AVEZ TOUJOURS PAS DE
+            <span>
+              <strong>COMPTE</strong> "ZARA.com, UTILISEZ CETTE OPTION POUR ACCÉDER
+              LE FORMULAIRE D'INSCRIPTION."
+            </span>
+          </p>
+        </div>
+
+        <div class="size">
+          <p>
+            EN NOUS COMMUNIQUANT VOS COORDONNÉES, ACHETEZ <b>ZARA</b>
+
+            "SERA PLUS RAPIDE ET UNE EXPÉRIENCE AGRÉABLE."
+          </p>
+        </div>
+
+        <div id="bttn">
+          <button><a href="https://www.zara.com/fr/en/signup"> CRÉER UN COMPTE</a></button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="footer"></div>
+</body>
+
+</html>
+<script src="login.js"></script>
+
+<script type="module">
+  import {
+    header
+  } from "header.js";
+  import {
+    footers
+  } from "footer.js";
+  let navbar_div = document.getElementById("header");
+  let footer_div = document.getElementById("footer");
+  footer_div.innerHTML = footers();
+  navbar_div.innerHTML = header();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="options">
+        <div class="footer-opt">
+          <h4>HELP</h4>
+          <ul>
+            <li><a href="*">SHOP AT ZARA.COM</a></li>
+            <li><a href="*">PRODUCT</a></li>
+            <li><a href="*">PAYMENT</a></li>
+            <li><a href="*">SHIPPING</a></li>
+            <li><a href="*">EXCHANGES AND RETURNS</a></li>
+            <li><a href="*">SHOPS AND COMPANY</a></li>
+            <li><a href="*">CLOTHES COLLECTION PROGRAMME</a></li>
+            <li><a href="*">MY ACCOUNT</a></li>
+          </ul>
+        </div>
+        <div class="footer-opt">
+          <h4>FOLLOW US</h4>
+          <ul>
+            <li><a href="*">NEWSLETTER</a></li>
+            <li><a href="*">TIKTOK</a></li>
+            <li><a href="*">INSTAGRAM</a></li>
+            <li><a href="*">FACEBOOK</a></li>
+            <li><a href="*">TWITTER</a></li>
+            <li><a href="*">PINTEREST</a></li>
+            <li><a href="*">YOUTUBE</a></li>
+          </ul>
+        </div>
+        <div class="footer-opt">
+          <h4>COMPANY</h4>
+          <ul>
+            <li><a href="*">ABOUT US</a></li>
+            <li><a href="*">OFFICES</a></li>
+            <li><a href="*">STORES</a></li>
+            <li><a href="*">WORK WITH US</a></li>
+          </ul>
+        </div>
+        <div class="footer-opt">
+          <h4>POLICIES</h4>
+          <ul>
+            <li><a href="*">PRIVACY POLICY</a></li>
+            <li><a href="*">PURCHASE CONDITIONS</a></li>
+            <li><a href="*">COOKIES SETTINGS</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr id="line">
+      <div class="divfoot">
+        <div id="div1">
+          <p>INDIA</p>
+        </div>
+        <div id="div2">
+          <p>ENGLISH</p>
+          <br>
+          <p id="reserved">© ALL RIGHTS RESERVED</p>
+        </div>
+      </div>
+      <p id="end">NAME AND ADDRESS OF THE MANUFACTURER:<br>INDUSTRIA DE DISEÑO TEXTIL, S.A. (INDITEX, S.A.)<br>AVENIDA DE LA DIPUTACIÓN, EDIFICIO INDITEX, 15143, ARTEIXO (A CORUÑA), SPAIN</p>
+    </div>
+  </footer>
+</div>

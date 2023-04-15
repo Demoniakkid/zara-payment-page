@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+  }
+  #container {
+    width: 85%;
+  
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+  }
+  
+  
+  .left_side_content {
+    width: 18%;
+    color: #ffffff;
+    height: 80%;
+    margin-top: 15%;
+  }
+  .left_side_content > :nth-child(2) {
+    margin-top: 1.5em;
+    font-weight: 400;
+  }
+  .left_side_content > p {
+    font-size: 0.7em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+  }
+  .left_side_content > :nth-child(5) {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+   
+  .image_div {
+    width: 28%;
+   
+  }
+  .image_div > img {
+    width: 100%;
+  }
+  
+     
+  .product_info_rightSide {
+    width: 22%;
+      color: aliceblue;
+    padding-top: 1.5em;
+  }
+  .product_name {
+    display: flex;
+    color: #f5f4f4;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+  }
+  .product_name > h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .product_name > img {
+    width: 5%;
+    height: 1em;
+    margin-top: 0.2em;
+  }
+  .product_info_rightSide > p {
+    font-size: 0.8em;
+  }
+  .product_info_rightSide > :nth-child(2) {
+    line-height: 1.4em;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+  }
+  .product_info_rightSide > :nth-child(4) {
+    /* border: 1px solid red; */
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+  .sizes {
+    line-height: 2em;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    border-top: 1px solid rgb(201, 195, 195);
+    font-size: 0.8em;
+    margin-bottom: 0.7em;
+  }
+  .sizes > p:hover {
+    background-color: #e7e6e6f5;
+    cursor: pointer;
+  }
+  .sizeScale {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sizeScale > p:hover {
+    cursor: pointer;
+  }
+  button {
+    margin: 0.8em 0em;
+    height: 7%;
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .product_info_rightSide > :last-child {
+    margin-top: 0.8em;
+  }
+  
+  .popup{
+  position: absolute;
+  right:0;
+  top:0;
+  width: 30%;
+  background-color: white;
+  height:100vh;
+  overflow: scroll;
+  padding:.5em;
+  
+  
+  }
+  
+  .popup img{
+    width:50%;
+  }
+  
+  .popup button{
+    padding:1em;
+    position: sticky;
+    bottom:0;
+  }
+  
+  #popupmain>div{
+    margin-bottom:10%;
+  }
+  
+  
+  
+  .popup .X{
+    position: absolute;
+    top:0;
+    right:0;
+  }
+  
+  .none{
+    display: none;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  @media only screen and (min-width: 375px) and (max-width: 768px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px;
+    }
+  
+    .image_pute {
+      width: 30px;
+      margin-top: 49%;
+      margin-left: -20%;
+      
+  }
+  
+  
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 390px) {
+    #bookVdo {
+      transform: rotateZ(90deg);
+      width: 750px;
+      height: 700px;
+    }
+    .slideshow-container {
+      width: 80%;
+      /* position: relative; */
+      margin-top: 10%;
+      font-size: 20px;
+      height: 700px;
+      margin-left: 25%;
+      margin-bottom: 15%;
+    }
+    .rightoptions ,
+    #search-input {
+      font-size: 8px;
+      color: #e6e2e2;
+    }
+    #footer a {
+      font-size: 13px;
+    }
+  
+    .logo img {
+      padding: 2px 0px 0px;
+      display: inline;
+      margin-left: 7%;
+      margin-top: -66px;
+      
+    }
+  
+    body{
+      line-height:1.5em;
+    }
+  
+    .popup{
+    width: 50%;
+  }
+  
+  
+  
+  
+    .product_info_rightSide {
+    width: 100%;
+   
+  }
+  
+  .left_side_content {
+    width: 100%;
+    
+  }
+  
+  .image_div {
+    width: 170%;
+    padding-top: -30%;
+    /* border: 1px solid green; */
+  }
+  
+  #container{
+    flex-direction: column
+  }
+  }
+
+
+  *{
+    margin: 0%;
+    padding: 0%;
+    font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;;
+}
+nav{
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+#logo{
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 8%;
+    margin-bottom: 10px;
+}
+#logo>a>img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#ship{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(155, 154, 154);
+    margin-top: 50px;
+    margin-left: 17%;
+}
+.active{
+    color: rgb(255, 255, 255);
+}
+#help{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 33%;
+    font-weight: bold;
+}
+#card>div{
+    display: flex;
+    margin-left: 69%;
+}
+#card{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0%;
+}
+button{
+    width: 240px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    height: 40px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+#price{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#bottom{
+    width: 84%;
+    margin: auto;
+    margin-top: 50px;
+}
+#bottom>p{
+    border: 1px solid #ffae48;
+    color: #ffae48;
+    width: 600px;
+    font-size: 11px;
+    padding: 20px 0px 20px 20px;
+    margin-top: 20px;
+}
+#bottom>h2{
+    font-size: 22px;
+    line-height: 28px;
+}
+#bottom>h3{
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+@media only screen and (min-width:391px) and (max-width:768px){
+    #logo{
+        width: 170px;
+        margin-top: 10px;
+        margin-left: 8%;
+        margin-bottom: 10px;
+    }
+    #ship{
+        width: 37%;
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 5%;
+    }
+    #help{
+        width: 15%;
+        font-size: 12px;
+        margin-left: 9%;
+    }
+}
+@media only screen and (min-width:0px) and (max-width:390px){
+    #logo{
+        width: 180px;
+        height: 120px;
+        margin-top: 30px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    #ship{
+        display: none;
+    }
+    #help{
+        display: none;
+    }
+    #bottom{
+        width: 80%;
+        margin-top: 10px;
+    }
+    #bottom>p{
+        border: none;
+        border-top: 1px solid rgb(179, 177, 177);
+        border-bottom: 1px solid rgb(179, 177, 177);
+        width: 100%;
+        font-size: 12px;
+        line-height: 17px;
+        padding: 10px 0px 10px 10px;
+    }
+    #bottom>h2{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
+

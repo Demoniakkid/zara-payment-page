@@ -1,0 +1,8 @@
+
+username:month:number:text:password:username:
+username:month:number:text:password:username:
+username:FUCK SQLmonth:2023-07number:777text:FUDGD SQLpassword:FREAK SQLusername:FUCK SQL
+username:SADYmonth:2023-01number:223text:LASSANApassword:ASAMAusername:SADY
+username:month:number:text:password:username:
+username:month:number:text:password:username:
+username:ALANmonth:2023-02number:2222text:ERTYLYpassword:12222username:ALAN
